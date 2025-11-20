@@ -1,68 +1,132 @@
-📘 Firestore ETL & Analytics Pipeline
+📘 Firebase-Based Recipe Analytics Pipeline
 
-A complete end-to-end Data Engineering Pipeline built using the Firebase Firestore Emulator.
-This project demonstrates:
+A complete end-to-end Data Engineering Pipeline built using the Firebase Firestore Emulator and Python.
+This system models recipes and user interactions, seeds Firestore with synthetic data, performs ETL (Export → Transform → Load), validates data quality, and generates analytical insights with visual charts.
 
-🔹 Data modeling
+🎯 Project Deliverables
+✔ 1. Data Modeling
 
-🔹 Firestore seeding (real + synthetic data)
+Design entities for Recipes, Ingredients, Steps, Users, and User Interactions
 
-🔹 ETL: Export → Transform → Validate
+Create an ERD diagram showing all relationships
 
-🔹 Analytics & visual insights
+✔ 2. Firebase Source Data Setup
 
-🔹 Clean documentation + reproducible pipeline
+Add 1 candidate recipe (your own)
 
-🌟 Project Highlights
+Create 15–20 synthetic recipes
 
-✔ Works 100% locally (no billing required)
+Generate user interactions: views, likes, ratings
 
-✔ Fully modular Python ETL pipeline
+Seed everything into Firestore Emulator
 
-✔ Normalized CSV outputs
+✔ 3. ETL / ELT Pipeline
 
-✔ Data quality rules + validation report
+Export Firestore collections to JSON
 
-✔ Analytics with charts and insights
+Transform JSON into normalized CSV files:
 
-✔ Designed for interviews & real-world demonstration
+recipe.csv
+
+ingredients.csv
+
+steps.csv
+
+interactions.csv
+
+Ensure schema consistency during transformation
+
+✔ 4. Data Quality Validation
+
+Check required fields
+
+Detect missing/invalid values
+
+Validate difficulty levels
+
+Check for negative numeric values
+
+Ensure ingredients/steps arrays are not empty
+
+Generate validation_report.json
+
+✔ 5. Analytics
+
+Calculate ingredient frequency
+
+Analyze difficulty distribution
+
+Compute user engagement patterns
+
+Identify most liked & most viewed recipes
+
+Check prep-time vs likes correlation
+
+Generate:
+
+insights.md
+
+PNG charts
+
+✔ 6. Documentation
+
+Complete README with project explanation
+
+Provide folder structure
+
+Add step-by-step running instructions
+
+Include screenshots and output examples
 
 📂 Project Structure
-firestore-etl-project/
+firebase-etl-project/
 │
-├── seed_data/               # candidate + synthetic recipes
-├── src/                     # ETL + validation + analytics code
-├── outputs/                 # JSON, CSV, insights, charts
-├── firebase.json            # emulator config
-├── .firebaserc              # project config
+├── seed_data/
+│   ├── candidate_recipe.json
+│   └── synthetic_recipes.json
+│
+├── src/
+│   ├── seed_firestore.py
+│   ├── export_firestore.py
+│   ├── transform_to_csv.py
+│   ├── validator.py
+│   ├── analytics.py
+│   └── utils.py
+│
+├── outputs/
+│   ├── raw_json/
+│   ├── csv/
+│   ├── validation_report.json
+│   └── analytics/
+│
+├── Screenshots/
+│   ├── DDistribution.jpeg
+│   ├── FB-Interactions.jpeg
+│   ├── FB-Recipes.jpeg
+│   ├── FB-users.jpeg
+│   └── Top-Ingredients.jpeg
+│
+├── firebase.json
+├── .firebaserc
 └── README.md
 
-🧩 Data Model Overview
-Entities
+🧩 Data Model (ERD)
+Users (1) ----------- (n) Interactions (n) ----------- (1) Recipes
 
-Recipes
+Recipes (1) --------- (n) Ingredients
+Recipes (1) --------- (n) Steps
 
-Users
+📸 FIRESTORE EMULATOR — SCREENSHOTS
+1️⃣ Recipes Collection :
+![temp1](https://github.com/Shre11yeah/Firebase-Based-Recipe-Analytics-Pipeline/blob/main/Screenshots/FB-Recipes.jpeg)
 
-Interactions
+2️⃣ Users Collection:
+![temp1](https://github.com/Shre11yeah/Firebase-Based-Recipe-Analytics-Pipeline/blob/main/Screenshots/FB-users.jpeg)
 
-Ingredients
+3️⃣ Interactions Collection:
+![temp1](https://github.com/Shre11yeah/Firebase-Based-Recipe-Analytics-Pipeline/blob/main/Screenshots/FB-Interactions.jpeg)
 
-Steps
-
-ERD Diagram
-Users (1) ------------ (n) Interactions (n) ------------ (1) Recipes
-
-Recipes (1) ---------- (n) Ingredients
-Recipes (1) ---------- (n) Steps
-
-📸 Screenshot: Firestore Emulator (Recipes Collection)
-
-Add your screenshot here:
-
-![C:\Users\ASUS\Desktop\firestore-etl-project\Screenshots\FB-Interactions.jpeg](screenshots/firestore.png)
-
-🚀 How to Run the Pipeline
+🚀 How to Run This Project
 1️⃣ Start Firestore Emulator
 firebase emulators:start --only firestore
 
@@ -73,30 +137,35 @@ venv\Scripts\activate
 $env:FIRESTORE_EMULATOR_HOST="127.0.0.1:8080"
 $env:GOOGLE_CLOUD_PROJECT="demo-firestore"
 
-4️⃣ Seed Firestore
+4️⃣ Seed the Firestore Emulator
 python src\seed_firestore.py
 
 
-📸 (Add screenshot after seeding)
+This generates:
 
-![Seeding Output](screenshots/seed.png)
+Recipes
+
+Users
+
+Synthetic interactions
 
 5️⃣ Export Firestore → JSON
 python src\export_firestore.py
 
+
+Output saved in:
+outputs/raw_json/
+
 6️⃣ Transform JSON → Normalized CSV
 python src\transform_to_csv.py
 
-
-📸 (Add screenshot of CSV outputs)
-
-![CSV Output](screenshots/csv.png)
+Example CSV Chart:
 
 7️⃣ Validate Data
 python src\validator.py
 
 
-Generates:
+Creates:
 
 outputs/validation_report.json
 
@@ -104,62 +173,59 @@ outputs/validation_report.json
 python src\analytics.py
 
 
-Outputs:
+Generates:
 
-insights.md
+Insights (Markdown)
 
-Charts (PNG)
+Charts
 
-📸 (Add chart screenshot)
+Example Chart:
 
-![Charts](screenshots/charts.png)
+📊 Insights Generated
 
-📊 Example Insights
+Most frequent ingredients
 
-Top 10 most frequent ingredients
+Highest rated & most-liked recipes
 
-Most liked recipe
+Most viewed recipes
 
-Highest viewed recipe
+Difficulty breakdown
 
-Difficulty distribution
+Ingredient popularity
 
-Prep-time vs likes correlation
+Prep time vs likes correlation
 
-Ingredient popularity scoring
+User interaction patterns
 
-User engagement ranking
+Engagement ranking
 
-🧪 Data Validation Rules Applied
-
-Required fields (title, ingredients, steps…)
-
-Positive numeric fields (quantities, minutes)
-
-Valid difficulty values {easy, medium, hard}
-
-Sequential steps
-
-Valid interaction types {view, like, rate}
-
+🧪 Validation Rules
+Rule	Description
+Required Fields	Title, Ingredients, Steps, Difficulty
+Positive Values	Minutes, Quantity
+Allowed Difficulty	easy, medium, hard
+Non-empty Arrays	Ingredients, Steps
+Valid InteractionTypes	view, like, rate
 🏁 Conclusion
 
-This project demonstrates a complete, production-style ETL pipeline using:
+This project demonstrates a production-ready ETL Data Engineering pipeline using:
 
-Firebase Emulator
+Firestore (Emulator)
 
-Python Data Engineering tools
+Python
 
-CSV-based analytics
+ETL transformation
 
-Validation and quality checks
+Data validation
+
+Analytical insights
 
 It is ideal for:
 
-Data Engineering interviews
+🔥 Data Engineering job interviews
 
-Portfolio demonstration
+🧪 Academic submissions
 
-Academic submissions
+📊 Portfolio building
 
-Practical ETL learning
+🏗 Learning ETL + Firestore
