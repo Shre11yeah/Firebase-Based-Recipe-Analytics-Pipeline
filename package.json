@@ -1,0 +1,7 @@
+{
+  "name": "firestore-etl-project",
+  "version": "1.0.0",
+  "scripts": {
+    "start:emulator": "firebase emulators:start --only firestore"
+  }
+}

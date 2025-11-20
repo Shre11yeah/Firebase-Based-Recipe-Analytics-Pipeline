@@ -1,0 +1,26 @@
+{
+  "id": "candidate_recipe_001",
+  "title": "Shreya's Masala Omelette",
+  "description": "A spicy, quick omelette with onions, tomatoes, and masala.",
+  "servings": 2,
+  "prep_minutes": 5,
+  "cook_minutes": 7,
+  "total_minutes": 12,
+  "difficulty": "easy",
+  "ingredients": [
+    {"name":"eggs","quantity":3,"unit":"pcs"},
+    {"name":"onion","quantity":0.5,"unit":"large","notes":"finely chopped"},
+    {"name":"tomato","quantity":0.5,"unit":"medium","notes":"finely chopped"},
+    {"name":"salt","quantity":0.75,"unit":"tsp"},
+    {"name":"pepper","quantity":0.25,"unit":"tsp"},
+    {"name":"oil","quantity":1,"unit":"tbsp"}
+  ],
+  "steps": [
+    "Beat eggs with salt and pepper.",
+    "Heat oil in pan, sauté onion and tomato till soft.",
+    "Pour egg mix, cook both sides until done, serve hot."
+  ],
+  "tags": ["breakfast","quick","vegetarian"]
+}
+
+
