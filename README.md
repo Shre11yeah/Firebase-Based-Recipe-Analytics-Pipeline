@@ -60,7 +60,7 @@ Recipes (1) ---------- (n) Steps
 
 Add your screenshot here:
 
-![Firestore Screenshot](C:\Users\ASUS\Desktop\firestore-etl-project\Screenshots\FB-Interactions.jpeg)
+![C:\Users\ASUS\Desktop\firestore-etl-project\Screenshots\FB-Interactions.jpeg](screenshots/firestore.png)
 
 🚀 How to Run the Pipeline
 1️⃣ Start Firestore Emulator
