@@ -5,78 +5,46 @@ This system models recipes and user interactions, seeds Firestore with synthetic
 
 🎯 Project Deliverables
 ✔ 1. Data Modeling
-
-Design entities for Recipes, Ingredients, Steps, Users, and User Interactions
-
-Create an ERD diagram showing all relationships
+-Design entities for Recipes, Ingredients, Steps, Users, and User Interactions
+-Create an ERD diagram showing all relationships
 
 ✔ 2. Firebase Source Data Setup
-
-Add 1 candidate recipe (your own)
-
-Create 15–20 synthetic recipes
-
-Generate user interactions: views, likes, ratings
-
-Seed everything into Firestore Emulator
+-Add 1 candidate recipe (your own)
+-Create 15–20 synthetic recipes
+-Generate user interactions: views, likes, ratings
+-Seed everything into Firestore Emulator
 
 ✔ 3. ETL / ELT Pipeline
-
-Export Firestore collections to JSON
-
-Transform JSON into normalized CSV files:
-
-recipe.csv
-
-ingredients.csv
-
-steps.csv
-
-interactions.csv
-
-Ensure schema consistency during transformation
+-Export Firestore collections to JSON
+-Transform JSON into normalized CSV files:
+-recipe.csv
+-ingredients.csv
+-steps.csv
+-interactions.csv
+-Ensure schema consistency during transformation
 
 ✔ 4. Data Quality Validation
-
-Check required fields
-
-Detect missing/invalid values
-
-Validate difficulty levels
-
-Check for negative numeric values
-
-Ensure ingredients/steps arrays are not empty
-
-Generate validation_report.json
+-Check required fields
+-Detect missing/invalid values
+-Validate difficulty levels
+-Check for negative numeric values
+-Ensure ingredients/steps arrays are not empty
+-Generate validation_report.json
 
 ✔ 5. Analytics
-
-Calculate ingredient frequency
-
-Analyze difficulty distribution
-
-Compute user engagement patterns
-
-Identify most liked & most viewed recipes
-
-Check prep-time vs likes correlation
-
-Generate:
-
-insights.md
-
-PNG charts
+-Calculate ingredient frequency
+-Analyze difficulty distribution
+-Compute user engagement patterns
+-Identify most liked & most viewed recipes
+-Check prep-time vs likes correlation
+-Generate: => insights.md
+-PNG charts
 
 ✔ 6. Documentation
-
-Complete README with project explanation
-
-Provide folder structure
-
-Add step-by-step running instructions
-
-Include screenshots and output examples
+-Complete README with project explanation
+-Provide folder structure
+-Add step-by-step running instructions
+-Include screenshots and output examples
 
 📂 Project Structure
 firebase-etl-project/
@@ -135,7 +103,7 @@ firebase emulators:start --only firestore
 venv\Scripts\activate
 
 3️⃣ Set Environment Variables
-$env:FIRESTORE_EMULATOR_HOST="127.0.0.1:8080"
+$env:FIRESTORE_EMULATOR_HOST="000.0.0.0:HOSTNO"
 $env:GOOGLE_CLOUD_PROJECT="demo-firestore"
 
 4️⃣ Seed the Firestore Emulator
@@ -143,13 +111,12 @@ python src\seed_firestore.py
 
 
 This generates:
-Recipes
-Users
-Synthetic interactions
+-Recipes
+-Users
+-Synthetic interactions
 
 5️⃣ Export Firestore → JSON
 python src\export_firestore.py
-
 
 Output saved in:
 outputs/raw_json/
@@ -158,6 +125,8 @@ outputs/raw_json/
 python src\transform_to_csv.py
 
 Example CSV Chart:
+
+
 
 7️⃣ Validate Data
 python src\validator.py
