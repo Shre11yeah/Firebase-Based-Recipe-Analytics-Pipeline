@@ -6,44 +6,67 @@ This system models recipes and user interactions, seeds Firestore with synthetic
 🎯 Project Deliverables
 ✔ 1. Data Modeling
 -Design entities for Recipes, Ingredients, Steps, Users, and User Interactions
+
 -Create an ERD diagram showing all relationships
 
 ✔ 2. Firebase Source Data Setup
 -Add 1 candidate recipe (your own)
+
 -Create 15–20 synthetic recipes
+
 -Generate user interactions: views, likes, ratings
+
 -Seed everything into Firestore Emulator
 
 ✔ 3. ETL / ELT Pipeline
 -Export Firestore collections to JSON
+
 -Transform JSON into normalized CSV files:
+
 -recipe.csv
+
 -ingredients.csv
+
 -steps.csv
+
 -interactions.csv
+
 -Ensure schema consistency during transformation
 
 ✔ 4. Data Quality Validation
 -Check required fields
+
 -Detect missing/invalid values
+
 -Validate difficulty levels
+
 -Check for negative numeric values
+
 -Ensure ingredients/steps arrays are not empty
+
 -Generate validation_report.json
 
 ✔ 5. Analytics
 -Calculate ingredient frequency
+
 -Analyze difficulty distribution
+
 -Compute user engagement patterns
+
 -Identify most liked & most viewed recipes
+
 -Check prep-time vs likes correlation
+
 -Generate: => insights.md
 -PNG charts
 
 ✔ 6. Documentation
 -Complete README with project explanation
+
 -Provide folder structure
+
 -Add step-by-step running instructions
+
 -Include screenshots and output examples
 
 📂 Project Structure
@@ -125,8 +148,7 @@ outputs/raw_json/
 python src\transform_to_csv.py
 
 Example CSV Chart:
-
-
+![temp1](https://github.com/Shre11yeah/Firebase-Based-Recipe-Analytics-Pipeline/blob/main/Screenshots/CSV.jpeg)
 
 7️⃣ Validate Data
 python src\validator.py
