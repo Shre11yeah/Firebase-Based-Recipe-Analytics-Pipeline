@@ -340,7 +340,8 @@ $env:GOOGLE_CLOUD_PROJECT="demo-firestore"
 bash
 Copy code
 python src/seed_firestore.py
-<p>Generates:</p>
+Generates:
+
 Recipes
 
 Users
@@ -351,10 +352,9 @@ Synthetic interactions
 bash
 Copy code
 python src/export_firestore.py
-<p>Output saved in:</p>
-bash
-Copy code
+Output saved in:
 outputs/raw_json/
+
 6️⃣ Transform JSON → Normalized CSV
 bash
 Copy code
@@ -364,15 +364,15 @@ python src/transform_to_csv.py
 bash
 Copy code
 python src/validator.py
-<p>Creates:</p>
-bash
-Copy code
+Creates:
 outputs/validation_report.json
+
 8️⃣ Run Analytics
 bash
 Copy code
 python src/analytics.py
-<p>Outputs:</p>
+Outputs:
+
 insights.md
 
 PNG charts
