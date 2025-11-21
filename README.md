@@ -388,11 +388,7 @@ Difficulty Distribution
 This project demonstrates a production-ready Data Engineering ETL Pipeline using:
 
 🔥 Firebase Firestore (Emulator)
-
 🐍 Python
-
 🛠 ETL Transformation
-
 🧪 Data Validation
-
 📊 Analytics & Reporting
