@@ -322,24 +322,20 @@ Recipes (1) --------- (n) Steps
 
 ---
 
-## 🚀 How to Run This Project
-
-### **1️⃣ Start Firestore Emulator**
-```bash
+🚀 <span style="font-size:28px; font-weight:600;">How to Run This Project</span>
+1️⃣ Start Firestore Emulator
 firebase emulators:start --only firestore
+
 2️⃣ Activate Virtual Environment
-bash
-Copy code
 venv\Scripts\activate
+
 3️⃣ Set Environment Variables (PowerShell)
-bash
-Copy code
 $env:FIRESTORE_EMULATOR_HOST="000.0.0.0:HOSTNO"
 $env:GOOGLE_CLOUD_PROJECT="demo-firestore"
+
 4️⃣ Seed Firestore
-bash
-Copy code
 python src/seed_firestore.py
+
 Generates:
 
 Recipes
@@ -349,28 +345,27 @@ Users
 Synthetic interactions
 
 5️⃣ Export Firestore → JSON
-bash
-Copy code
 python src/export_firestore.py
+
+
 Output saved in:
 outputs/raw_json/
 
 6️⃣ Transform JSON → Normalized CSV
-bash
-Copy code
 python src/transform_to_csv.py
+
 <img src="https://github.com/Shre11yeah/Firebase-Based-Recipe-Analytics-Pipeline/blob/main/Screenshots/CSV.jpeg" width="650"/>
 7️⃣ Validate Data
-bash
-Copy code
 python src/validator.py
+
+
 Creates:
 outputs/validation_report.json
 
 8️⃣ Run Analytics
-bash
-Copy code
 python src/analytics.py
+
+
 Outputs:
 
 insights.md
@@ -383,12 +378,22 @@ Most Frequent Ingredients
 Difficulty Distribution
 <img src="https://github.com/Shre11yeah/Firebase-Based-Recipe-Analytics-Pipeline/blob/main/Screenshots/DDistribution.jpeg" width="650"/>
 🧪 <span style="font-size:28px; font-weight:600;">Validation Rules</span>
-<table> <tr><th>Rule</th><th>Description</th></tr> <tr><td>Required Fields</td><td>Title, Ingredients, Steps, Difficulty</td></tr> <tr><td>Positive Values</td><td>Time, Quantity must be ≥ 0</td></tr> <tr><td>Difficulty Levels</td><td>easy, medium, hard</td></tr> <tr><td>Non-empty Arrays</td><td>Ingredients, Steps</td></tr> <tr><td>Interaction Types</td><td>view, like, rate</td></tr> </table>
+Rule	Description
+Required Fields	Title, Ingredients, Steps, Difficulty
+Positive Values	Time, Quantity must be ≥ 0
+Difficulty Levels	easy, medium, hard
+Non-empty Arrays	Ingredients, Steps
+Interaction Types	view, like, rate
 🏁 <span style="font-size:28px; font-weight:600;">Conclusion</span>
+
 This project demonstrates a production-ready Data Engineering ETL Pipeline using:
 
 🔥 Firebase Firestore (Emulator)
+
 🐍 Python
+
 🛠 ETL Transformation
+
 🧪 Data Validation
+
 📊 Analytics & Reporting
