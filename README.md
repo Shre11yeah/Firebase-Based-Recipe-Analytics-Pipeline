@@ -298,9 +298,6 @@ firebase-etl-project/
 ├── .firebaserc
 └── README.md
 
-yaml
-Copy code
-
 ---
 
 ## 🧩 <span style="font-size:28px; font-weight:600;">Data Model (ERD)</span>
@@ -309,9 +306,6 @@ Users (1) ----------- (n) Interactions (n) ----------- (1) Recipes
 
 Recipes (1) --------- (n) Ingredients
 Recipes (1) --------- (n) Steps
-
-yaml
-Copy code
 
 ---
 
@@ -328,7 +322,7 @@ Copy code
 
 ---
 
-## 🚀 <span style="font-size:28px; font-weight:600;">How to Run This Project</span>
+## 🚀 How to Run This Project
 
 ### **1️⃣ Start Firestore Emulator**
 ```bash
@@ -346,8 +340,7 @@ $env:GOOGLE_CLOUD_PROJECT="demo-firestore"
 bash
 Copy code
 python src/seed_firestore.py
-Generates:
-
+<p>Generates:</p>
 Recipes
 
 Users
@@ -358,8 +351,10 @@ Synthetic interactions
 bash
 Copy code
 python src/export_firestore.py
-Output saved in /outputs/raw_json/
-
+<p>Output saved in:</p>
+bash
+Copy code
+outputs/raw_json/
 6️⃣ Transform JSON → Normalized CSV
 bash
 Copy code
@@ -369,15 +364,15 @@ python src/transform_to_csv.py
 bash
 Copy code
 python src/validator.py
-Creates:
+<p>Creates:</p>
+bash
+Copy code
 outputs/validation_report.json
-
 8️⃣ Run Analytics
 bash
 Copy code
 python src/analytics.py
-Outputs:
-
+<p>Outputs:</p>
 insights.md
 
 PNG charts
