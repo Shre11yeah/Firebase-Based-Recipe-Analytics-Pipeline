@@ -1,0 +1,719 @@
+[
+  {
+    "cook_minutes": 7,
+    "steps": [
+      "Beat eggs with salt and pepper.",
+      "Heat oil in pan, sauté onion and tomato till soft.",
+      "Pour egg mix, cook both sides until done, serve hot."
+    ],
+    "description": "A spicy, quick omelette with onions, tomatoes, and masala.",
+    "id": "candidate_recipe_001",
+    "servings": 2,
+    "tags": [
+      "breakfast",
+      "quick",
+      "vegetarian"
+    ],
+    "ingredients": [
+      {
+        "name": "eggs",
+        "quantity": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": "onion",
+        "notes": "finely chopped",
+        "quantity": 0.5,
+        "unit": "large"
+      },
+      {
+        "name": "tomato",
+        "notes": "finely chopped",
+        "quantity": 0.5,
+        "unit": "medium"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.75,
+        "unit": "tsp"
+      },
+      {
+        "name": "pepper",
+        "quantity": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "oil",
+        "quantity": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "prep_minutes": 5,
+    "total_minutes": 12,
+    "difficulty": "easy",
+    "title": "Shreya's Masala Omelette",
+    "_id": "candidate_recipe_001"
+  },
+  {
+    "cook_minutes": 36,
+    "steps": [
+      "Step 1 for Synthetic Recipe 1",
+      "Step 2 for Synthetic Recipe 1",
+      "Step 3 for Synthetic Recipe 1"
+    ],
+    "description": "Auto-generated recipe 1",
+    "id": "synthetic_001",
+    "servings": 4,
+    "tags": [
+      "vegetarian",
+      "dinner",
+      "dessert"
+    ],
+    "ingredients": [
+      {
+        "name": "flour",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "butter",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "quantity": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "sugar",
+        "quantity": 50,
+        "unit": "g"
+      }
+    ],
+    "prep_minutes": 13,
+    "total_minutes": 49,
+    "difficulty": "hard",
+    "title": "Synthetic Recipe 1",
+    "_id": "synthetic_001"
+  },
+  {
+    "cook_minutes": 59,
+    "steps": [
+      "Step 1 for Synthetic Recipe 2",
+      "Step 2 for Synthetic Recipe 2",
+      "Step 3 for Synthetic Recipe 2",
+      "Step 4 for Synthetic Recipe 2",
+      "Step 5 for Synthetic Recipe 2",
+      "Step 6 for Synthetic Recipe 2"
+    ],
+    "description": "Auto-generated recipe 2",
+    "id": "synthetic_002",
+    "servings": 1,
+    "tags": [
+      "quick",
+      "dinner",
+      "dessert"
+    ],
+    "ingredients": [
+      {
+        "name": "salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "milk",
+        "quantity": 100,
+        "unit": "ml"
+      }
+    ],
+    "prep_minutes": 25,
+    "total_minutes": 84,
+    "difficulty": "hard",
+    "title": "Synthetic Recipe 2",
+    "_id": "synthetic_002"
+  },
+  {
+    "cook_minutes": 45,
+    "steps": [
+      "Step 1 for Synthetic Recipe 3",
+      "Step 2 for Synthetic Recipe 3",
+      "Step 3 for Synthetic Recipe 3",
+      "Step 4 for Synthetic Recipe 3",
+      "Step 5 for Synthetic Recipe 3",
+      "Step 6 for Synthetic Recipe 3"
+    ],
+    "description": "Auto-generated recipe 3",
+    "id": "synthetic_003",
+    "servings": 1,
+    "tags": [
+      "dinner",
+      "vegan"
+    ],
+    "ingredients": [
+      {
+        "name": "salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "flour",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "sugar",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "quantity": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "butter",
+        "quantity": 20,
+        "unit": "g"
+      }
+    ],
+    "prep_minutes": 18,
+    "total_minutes": 63,
+    "difficulty": "medium",
+    "title": "Synthetic Recipe 3",
+    "_id": "synthetic_003"
+  },
+  {
+    "cook_minutes": 7,
+    "steps": [
+      "Step 1 for Synthetic Recipe 4",
+      "Step 2 for Synthetic Recipe 4",
+      "Step 3 for Synthetic Recipe 4",
+      "Step 4 for Synthetic Recipe 4"
+    ],
+    "description": "Auto-generated recipe 4",
+    "id": "synthetic_004",
+    "servings": 1,
+    "tags": [
+      "vegan",
+      "dessert",
+      "lunch"
+    ],
+    "ingredients": [
+      {
+        "name": "sugar",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "quantity": 20,
+        "unit": "g"
+      }
+    ],
+    "prep_minutes": 20,
+    "total_minutes": 27,
+    "difficulty": "hard",
+    "title": "Synthetic Recipe 4",
+    "_id": "synthetic_004"
+  },
+  {
+    "cook_minutes": 19,
+    "steps": [
+      "Step 1 for Synthetic Recipe 5",
+      "Step 2 for Synthetic Recipe 5",
+      "Step 3 for Synthetic Recipe 5"
+    ],
+    "description": "Auto-generated recipe 5",
+    "id": "synthetic_005",
+    "servings": 4,
+    "tags": [
+      "breakfast",
+      "lunch",
+      "quick"
+    ],
+    "ingredients": [
+      {
+        "name": "milk",
+        "quantity": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "flour",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "quantity": 20,
+        "unit": "g"
+      }
+    ],
+    "prep_minutes": 26,
+    "total_minutes": 45,
+    "difficulty": "easy",
+    "title": "Synthetic Recipe 5",
+    "_id": "synthetic_005"
+  },
+  {
+    "cook_minutes": 42,
+    "steps": [
+      "Step 1 for Synthetic Recipe 6",
+      "Step 2 for Synthetic Recipe 6",
+      "Step 3 for Synthetic Recipe 6",
+      "Step 4 for Synthetic Recipe 6",
+      "Step 5 for Synthetic Recipe 6"
+    ],
+    "description": "Auto-generated recipe 6",
+    "id": "synthetic_006",
+    "servings": 4,
+    "tags": [
+      "vegan"
+    ],
+    "ingredients": [
+      {
+        "name": "flour",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "quantity": 100,
+        "unit": "ml"
+      }
+    ],
+    "prep_minutes": 19,
+    "total_minutes": 61,
+    "difficulty": "easy",
+    "title": "Synthetic Recipe 6",
+    "_id": "synthetic_006"
+  },
+  {
+    "cook_minutes": 41,
+    "steps": [
+      "Step 1 for Synthetic Recipe 7",
+      "Step 2 for Synthetic Recipe 7",
+      "Step 3 for Synthetic Recipe 7",
+      "Step 4 for Synthetic Recipe 7"
+    ],
+    "description": "Auto-generated recipe 7",
+    "id": "synthetic_007",
+    "servings": 2,
+    "tags": [
+      "vegan",
+      "breakfast"
+    ],
+    "ingredients": [
+      {
+        "name": "butter",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "quantity": 100,
+        "unit": "ml"
+      }
+    ],
+    "prep_minutes": 33,
+    "total_minutes": 74,
+    "difficulty": "hard",
+    "title": "Synthetic Recipe 7",
+    "_id": "synthetic_007"
+  },
+  {
+    "cook_minutes": 25,
+    "steps": [
+      "Step 1 for Synthetic Recipe 8",
+      "Step 2 for Synthetic Recipe 8",
+      "Step 3 for Synthetic Recipe 8",
+      "Step 4 for Synthetic Recipe 8",
+      "Step 5 for Synthetic Recipe 8"
+    ],
+    "description": "Auto-generated recipe 8",
+    "id": "synthetic_008",
+    "servings": 2,
+    "tags": [
+      "lunch"
+    ],
+    "ingredients": [
+      {
+        "name": "sugar",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "quantity": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "flour",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ],
+    "prep_minutes": 32,
+    "total_minutes": 57,
+    "difficulty": "easy",
+    "title": "Synthetic Recipe 8",
+    "_id": "synthetic_008"
+  },
+  {
+    "cook_minutes": 19,
+    "steps": [
+      "Step 1 for Synthetic Recipe 9",
+      "Step 2 for Synthetic Recipe 9",
+      "Step 3 for Synthetic Recipe 9",
+      "Step 4 for Synthetic Recipe 9",
+      "Step 5 for Synthetic Recipe 9",
+      "Step 6 for Synthetic Recipe 9"
+    ],
+    "description": "Auto-generated recipe 9",
+    "id": "synthetic_009",
+    "servings": 1,
+    "tags": [
+      "vegan"
+    ],
+    "ingredients": [
+      {
+        "name": "milk",
+        "quantity": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "butter",
+        "quantity": 20,
+        "unit": "g"
+      }
+    ],
+    "prep_minutes": 20,
+    "total_minutes": 39,
+    "difficulty": "medium",
+    "title": "Synthetic Recipe 9",
+    "_id": "synthetic_009"
+  },
+  {
+    "cook_minutes": 15,
+    "steps": [
+      "Step 1 for Synthetic Recipe 10",
+      "Step 2 for Synthetic Recipe 10",
+      "Step 3 for Synthetic Recipe 10"
+    ],
+    "description": "Auto-generated recipe 10",
+    "id": "synthetic_010",
+    "servings": 2,
+    "tags": [
+      "vegetarian",
+      "quick"
+    ],
+    "ingredients": [
+      {
+        "name": "butter",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "name": "flour",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "milk",
+        "quantity": 100,
+        "unit": "ml"
+      }
+    ],
+    "prep_minutes": 19,
+    "total_minutes": 34,
+    "difficulty": "easy",
+    "title": "Synthetic Recipe 10",
+    "_id": "synthetic_010"
+  },
+  {
+    "cook_minutes": 14,
+    "steps": [
+      "Step 1 for Synthetic Recipe 11",
+      "Step 2 for Synthetic Recipe 11"
+    ],
+    "description": "Auto-generated recipe 11",
+    "id": "synthetic_011",
+    "servings": 4,
+    "tags": [
+      "dinner",
+      "quick",
+      "dessert"
+    ],
+    "ingredients": [
+      {
+        "name": "sugar",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ],
+    "prep_minutes": 20,
+    "total_minutes": 34,
+    "difficulty": "medium",
+    "title": "Synthetic Recipe 11",
+    "_id": "synthetic_011"
+  },
+  {
+    "cook_minutes": 18,
+    "steps": [
+      "Step 1 for Synthetic Recipe 12",
+      "Step 2 for Synthetic Recipe 12",
+      "Step 3 for Synthetic Recipe 12"
+    ],
+    "description": "Auto-generated recipe 12",
+    "id": "synthetic_012",
+    "servings": 2,
+    "tags": [
+      "vegan",
+      "lunch",
+      "breakfast"
+    ],
+    "ingredients": [
+      {
+        "name": "sugar",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "quantity": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "butter",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "name": "flour",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ],
+    "prep_minutes": 17,
+    "total_minutes": 35,
+    "difficulty": "hard",
+    "title": "Synthetic Recipe 12",
+    "_id": "synthetic_012"
+  },
+  {
+    "cook_minutes": 10,
+    "steps": [
+      "Step 1 for Synthetic Recipe 13",
+      "Step 2 for Synthetic Recipe 13",
+      "Step 3 for Synthetic Recipe 13",
+      "Step 4 for Synthetic Recipe 13",
+      "Step 5 for Synthetic Recipe 13",
+      "Step 6 for Synthetic Recipe 13"
+    ],
+    "description": "Auto-generated recipe 13",
+    "id": "synthetic_013",
+    "servings": 1,
+    "tags": [
+      "lunch",
+      "vegetarian"
+    ],
+    "ingredients": [
+      {
+        "name": "flour",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "sugar",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "quantity": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "butter",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ],
+    "prep_minutes": 26,
+    "total_minutes": 36,
+    "difficulty": "hard",
+    "title": "Synthetic Recipe 13",
+    "_id": "synthetic_013"
+  },
+  {
+    "cook_minutes": 50,
+    "steps": [
+      "Step 1 for Synthetic Recipe 14",
+      "Step 2 for Synthetic Recipe 14",
+      "Step 3 for Synthetic Recipe 14"
+    ],
+    "description": "Auto-generated recipe 14",
+    "id": "synthetic_014",
+    "servings": 1,
+    "tags": [
+      "lunch",
+      "breakfast"
+    ],
+    "ingredients": [
+      {
+        "name": "butter",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "name": "sugar",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "quantity": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "flour",
+        "quantity": 100,
+        "unit": "g"
+      }
+    ],
+    "prep_minutes": 10,
+    "total_minutes": 60,
+    "difficulty": "easy",
+    "title": "Synthetic Recipe 14",
+    "_id": "synthetic_014"
+  },
+  {
+    "cook_minutes": 59,
+    "steps": [
+      "Step 1 for Synthetic Recipe 15",
+      "Step 2 for Synthetic Recipe 15"
+    ],
+    "description": "Auto-generated recipe 15",
+    "id": "synthetic_015",
+    "servings": 4,
+    "tags": [
+      "vegetarian"
+    ],
+    "ingredients": [
+      {
+        "name": "milk",
+        "quantity": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "sugar",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "quantity": 20,
+        "unit": "g"
+      }
+    ],
+    "prep_minutes": 21,
+    "total_minutes": 80,
+    "difficulty": "medium",
+    "title": "Synthetic Recipe 15",
+    "_id": "synthetic_015"
+  },
+  {
+    "cook_minutes": 23,
+    "steps": [
+      "Step 1 for Synthetic Recipe 16",
+      "Step 2 for Synthetic Recipe 16",
+      "Step 3 for Synthetic Recipe 16",
+      "Step 4 for Synthetic Recipe 16",
+      "Step 5 for Synthetic Recipe 16"
+    ],
+    "description": "Auto-generated recipe 16",
+    "id": "synthetic_016",
+    "servings": 2,
+    "tags": [
+      "vegetarian",
+      "vegan"
+    ],
+    "ingredients": [
+      {
+        "name": "salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "butter",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "quantity": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "sugar",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "name": "flour",
+        "quantity": 100,
+        "unit": "g"
+      }
+    ],
+    "prep_minutes": 35,
+    "total_minutes": 58,
+    "difficulty": "medium",
+    "title": "Synthetic Recipe 16",
+    "_id": "synthetic_016"
+  }
+]

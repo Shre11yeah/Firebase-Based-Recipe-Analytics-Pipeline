@@ -1,0 +1,18 @@
+recipe_id,title,description,servings,prep_minutes,cook_minutes,total_minutes,difficulty,tags
+candidate_recipe_001,Shreya's Masala Omelette,"A spicy, quick omelette with onions, tomatoes, and masala.",2,5,7,12,easy,breakfast|quick|vegetarian
+synthetic_001,Synthetic Recipe 1,Auto-generated recipe 1,4,13,36,49,hard,vegetarian|dinner|dessert
+synthetic_002,Synthetic Recipe 2,Auto-generated recipe 2,1,25,59,84,hard,quick|dinner|dessert
+synthetic_003,Synthetic Recipe 3,Auto-generated recipe 3,1,18,45,63,medium,dinner|vegan
+synthetic_004,Synthetic Recipe 4,Auto-generated recipe 4,1,20,7,27,hard,vegan|dessert|lunch
+synthetic_005,Synthetic Recipe 5,Auto-generated recipe 5,4,26,19,45,easy,breakfast|lunch|quick
+synthetic_006,Synthetic Recipe 6,Auto-generated recipe 6,4,19,42,61,easy,vegan
+synthetic_007,Synthetic Recipe 7,Auto-generated recipe 7,2,33,41,74,hard,vegan|breakfast
+synthetic_008,Synthetic Recipe 8,Auto-generated recipe 8,2,32,25,57,easy,lunch
+synthetic_009,Synthetic Recipe 9,Auto-generated recipe 9,1,20,19,39,medium,vegan
+synthetic_010,Synthetic Recipe 10,Auto-generated recipe 10,2,19,15,34,easy,vegetarian|quick
+synthetic_011,Synthetic Recipe 11,Auto-generated recipe 11,4,20,14,34,medium,dinner|quick|dessert
+synthetic_012,Synthetic Recipe 12,Auto-generated recipe 12,2,17,18,35,hard,vegan|lunch|breakfast
+synthetic_013,Synthetic Recipe 13,Auto-generated recipe 13,1,26,10,36,hard,lunch|vegetarian
+synthetic_014,Synthetic Recipe 14,Auto-generated recipe 14,1,10,50,60,easy,lunch|breakfast
+synthetic_015,Synthetic Recipe 15,Auto-generated recipe 15,4,21,59,80,medium,vegetarian
+synthetic_016,Synthetic Recipe 16,Auto-generated recipe 16,2,35,23,58,medium,vegetarian|vegan
